@@ -51,8 +51,7 @@ steps:
       
       </html>
     BodyAsHtml: true
-    AddAttachment: true
-    Attachment: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    AddAttachment: false
     SmtpServer: 'IWPETPV.corp.checkfree.com'
     SmtpPort: '25'
     UseSSL: false
