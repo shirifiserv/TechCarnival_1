@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnologyCarnival", "MVCIm
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A4E95D34-8B60-43BB-A535-ECF8AAA596EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechCarnivalUnitTesting", "TechCarnivalUnitTesting\TechCarnivalUnitTesting.csproj", "{7D4DCCBA-EA58-4304-BCF0-7C0B223E6366}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{F9FAE0F1-B1B1-4355-BBF7-520436B9C3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9FAE0F1-B1B1-4355-BBF7-520436B9C3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9FAE0F1-B1B1-4355-BBF7-520436B9C3FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D4DCCBA-EA58-4304-BCF0-7C0B223E6366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4DCCBA-EA58-4304-BCF0-7C0B223E6366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4DCCBA-EA58-4304-BCF0-7C0B223E6366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4DCCBA-EA58-4304-BCF0-7C0B223E6366}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
