@@ -13,20 +13,23 @@
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Technology Carnival", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Booth", "Index", "Home", new { area = "" }, null)</li>
-                    <li>@Html.ActionLink("Help", "Index", "Help", new { area = "HelpPage" }, null)</li>
-                </ul>
-             
+            @*<div class="navbar-header">
+            @Html.ActionLink("Technology Carnival", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("Booth", "Index", "Home", new { area = "" }, null)</li>
+                <li>@Html.ActionLink("Help", "Index", "Help", new { area = "HelpPage" }, null)</li>
+            </ul>
+
+        </div>*@
+
+            <div>
+                <div style="float: left;margin-right: 10px;"> @Html.ActionLink("Technology Carnival", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })</div>
+                <div class="navbar1-collapse collapse">
+                   <li > @Html.ActionLink("Booth", "Index", "Home", new { area = "" }, null)</li>
+                   <li> @Html.ActionLink("Help", "Index", "Help", new { area = "HelpPage" }, null)</li>
+                </div>
             </div>
         </div>
     </div>
